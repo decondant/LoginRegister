@@ -27,10 +27,10 @@ if (mysqli_connect_error()) {
 
 	if($rnum==1)
 	{
-		echo "Logged";
+		echo "Logged in";
 	}else{
 
-		echo "error";
+		echo "Not logged ";
 	}
 }
 ?>
